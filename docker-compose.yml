@@ -1,6 +1,6 @@
 services:
  jb-bot:
-   image : "jb-bot:latest"
-    deploy:
-     restart_policy:
-        condition: always
+  image : "jb-bot:latest"
+   deploy:
+    restart_policy:
+     condition: always
