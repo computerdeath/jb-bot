@@ -1,0 +1,4 @@
+version: '1'
+services:
+    jb-bot:
+        image : "jb-bot:latest"
