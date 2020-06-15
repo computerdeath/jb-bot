@@ -2,7 +2,7 @@ version: '3'
 services:
     jb-bot:
       image: 'jb-bot:latest'
-      deploy: null
+      deploy: 
       restart_policy:
        condition: always
   
