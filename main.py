@@ -15,6 +15,7 @@ async def on_message(message):
     hold = message.content
     if "you people" in hold.lower():
         await message.channel.send("what do you mean YOU PEOPLE")
+        hold = “”
 
 
 
