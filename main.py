@@ -12,6 +12,8 @@ async def on_ready():
     await client.change_presence(status=discord.Status.idle, activity=game)
 @client.event
 async def on_message(message):
+    if message.author.bot:
+        return
     hold = message.content
     if "you people" in hold.lower():
         await message.channel.send("what do you mean YOU PEOPLE")
